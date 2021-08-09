@@ -1,8 +1,31 @@
 .home-page {
-  position: absolute;
+  position: relative;
   width: 1440px;
   height: 1024px;
   left: 0px;
   top: 0px;
   background: #ff9063;
+  overflow: hidden;
+}
+.navbar {
+  z-index: 200;
+}
+.box1 {
+  position: absolute;
+  width: 1621px;
+  height: 620px;
+  right: -114px;
+  bottom: -125px;
+  background: #fd804e;
+  transform: rotate(9deg);
+}
+.box2 {
+  position: absolute;
+  width: 1621px;
+  height: 620px;
+  right: -13px;
+  top: -162px;
+  background: rgba(249, 117, 64, 0.58);
+  transform: rotate(-10deg);
+  z-index: 100;
 }
