@@ -42,8 +42,13 @@ body {
 }
 .home-page .my-img {
   position: absolute;
-  top: 300px;
-  left: 250px;
+  top: 350px;
+  left: 350px;
+}
+.h-text {
+  position: absolute;
+  top: 370px;
+  left: 650px;
 }
 /* ==================================================
    2nd page 
